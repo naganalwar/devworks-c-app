@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: devworks-c-app
+  host: devworks-c-app
+  disk_quota: 1024M
+  services:
+  - devworks-c-app-cloudantNoSQLDB
+  - Language Translator-f3
+  - Conversation-q0
+  - Text to Speech-xi
